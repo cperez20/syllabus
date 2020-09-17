@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-17T13:03:50.071Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="AGcbYqV1tNyvDx11gmMW" version="13.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-17T20:24:27.162Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="bMOjPalgfdxhX5Tr_MrQ" version="13.7.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4383" dy="1037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -21,7 +21,7 @@
             <mxRectangle x="120" y="30" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="+ entrenador: str&#xa;+ equipo: list&#xa;+ medallas: int&#xa;+ moral: float&#xa;+ dinero: int&#xa;+ excelencia_respeto : float&#xa;+ implementos_deportivos : float&#xa;+ implementos_medicos : float&#xa;+ veces_especial = int&#xa;+ nombre_delegacion = str&#xa;medallas_atletismo = int&#xa;+ medallas_ciclismo = int&#xa;+ medallas_gimnasia = int&#xa;+ medallas_natacion = int&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--2" value="+ entrenador: str&#xa;+ equipo: list&#xa;+ medallas: int&#xa;+ moral: float&#xa;+ dinero: int&#xa;+ __excelencia_respeto : float&#xa;+ __implementos_deportivos : float&#xa;+ __implementos_medicos : float&#xa;+ veces_especial = int&#xa;+ nombre_delegacion = str&#xa;medallas_atletismo = int&#xa;+ medallas_ciclismo = int&#xa;+ medallas_gimnasia = int&#xa;+ medallas_natacion = int&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="26" width="200" height="214" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
@@ -97,7 +97,7 @@
         <mxCell id="e59dA_TiApNZdRmuOT3P-3" value="Deportista" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-827" y="630" width="160" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="e59dA_TiApNZdRmuOT3P-4" value="+  nombre: str&#xa;+ &lt;get/set&gt; velocidad: int&#xa;+ &lt;get/set&gt; resistencia: int&#xa;+&lt;get/set&gt;  flexibilidad: int&#xa;+ &lt;get/set&gt; moral: int&#xa;+ lesionado: bool&#xa;+ precio: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e59dA_TiApNZdRmuOT3P-3" vertex="1">
+        <mxCell id="e59dA_TiApNZdRmuOT3P-4" value="+  nombre: str&#xa;+ &lt;get/set&gt; __velocidad: int&#xa;+ &lt;get/set&gt; __resistencia: int&#xa;+&lt;get/set&gt;  __flexibilidad: int&#xa;+ &lt;get/set&gt; __moral: int&#xa;+ lesionado: bool&#xa;+ precio: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="e59dA_TiApNZdRmuOT3P-3" vertex="1">
           <mxGeometry y="26" width="160" height="114" as="geometry" />
         </mxCell>
         <mxCell id="e59dA_TiApNZdRmuOT3P-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="e59dA_TiApNZdRmuOT3P-3" vertex="1">
@@ -191,35 +191,35 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="IEEEsparta" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-562" y="650" width="210" height="170" as="geometry">
+          <mxGeometry x="-562" y="650" width="240" height="170" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="+ &lt;get/set&gt;excelencia_respeto: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="26" width="210" height="14" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="+ &lt;get/set&gt;__excelencia_respeto: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="240" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="+ &lt;get/set&gt;implementos_deportivos: float&#xa;+ &lt;get/set&gt;implementos_medicos: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="40" width="210" height="40" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--8" value="+ &lt;get/set&gt;__implementos_deportivos: float&#xa;+ &lt;get/set&gt;__implementos_medicos: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="40" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="80" width="210" height="8" as="geometry" />
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--10" value="+ __repr__(): None&#xa;+ entrenar_deportistas(): None&#xa;+ sanar_lesiones(): None&#xa;+ comprar_tecnologia = None&#xa;+ utilizar_habilidad_especial(): None" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontStyle=0" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="88" width="210" height="82" as="geometry" />
+          <mxGeometry y="88" width="240" height="82" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--13" value="DCCrotona" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-220" y="650" width="210" height="158" as="geometry">
+          <mxGeometry x="-220" y="650" width="260" height="158" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="+ &lt;get/set&gt;excelencia_respeto: float&#xa;+ &lt;get/set&gt;implementos_deportivos: float&#xa;+ &lt;get/set&gt;implementos_medicos: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="26" width="210" height="54" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="+ &lt;get/set&gt;__excelencia_respeto: float&#xa;+ &lt;get/set&gt;__implementos_deportivos: float&#xa;+ &lt;get/set&gt;__implementos_medicos: float" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
+          <mxGeometry y="26" width="260" height="54" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="80" width="210" height="8" as="geometry" />
+          <mxGeometry y="80" width="260" height="8" as="geometry" />
         </mxCell>
         <mxCell id="e59dA_TiApNZdRmuOT3P-2" value="+__repr__(): str&lt;br&gt;+ entrenar_deportistas(): None&lt;br&gt;+ sanar_lesiones(): None&lt;br&gt;+ comprar_tecnologia(): None&lt;br&gt;+ utilizar_habilidad_especial(): None" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
-          <mxGeometry y="88" width="210" height="70" as="geometry" />
+          <mxGeometry y="88" width="260" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
